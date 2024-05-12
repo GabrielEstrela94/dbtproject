@@ -1,3 +1,5 @@
+-- the employees model
+
 WITH calc_employees AS
 (
     SELECT  

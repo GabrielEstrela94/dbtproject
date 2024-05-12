@@ -1,3 +1,5 @@
+-- the customers model.
+
 WITH deduplicated AS
 (
 SELECT  

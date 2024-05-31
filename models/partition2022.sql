@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized = 'table',
+        schema= 'prod',
+        alias = 'partition2022'
+    )
+}}
+
 SELECT
 
 *

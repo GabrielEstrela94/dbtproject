@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized = 'table',
+        schema= 'prod',
+        alias = 'employees'
+    )
+}}
+
 WITH calc_employees AS
 (
     SELECT  

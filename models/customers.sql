@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized = 'table',
+        schema= 'prod',
+        alias = 'customers'
+    )
+}}
+
 WITH deduplicated AS
 (
 SELECT  

@@ -1,3 +1,12 @@
+{{
+    config(
+        materialized = 'table',
+        schema= 'prod',
+        alias = 'joins'
+    )
+}}
+
+
 WITH prod AS 
 (
     SELECT

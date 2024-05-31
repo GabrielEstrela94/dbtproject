@@ -1,3 +1,12 @@
+{{
+    config(
+        materialized = 'table',
+        schema= 'prod',
+        alias = 'orderdetails'
+    )
+}}
+
+
 SELECT
 
 od.OrderID order_id
